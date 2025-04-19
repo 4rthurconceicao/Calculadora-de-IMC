@@ -15,6 +15,8 @@ if (IMC < 18.5) {
 
 }else if (IMC >= 35.0 && IMC <= 39.9){
 
-}else if (IMC >= 40)
+}else if (IMC >= 40){
+    
+}
 
 }
