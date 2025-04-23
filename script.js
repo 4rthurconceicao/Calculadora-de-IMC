@@ -1,10 +1,11 @@
 function Calcular() {
+let res = document.getElementById('res')
 let nome = document.getElementById('nome')
-let kg = Number(document.getElementById('peso'))
-let m = Number(document.getElementById('altura'))
+let kg = Number(document.getElementById('peso').value)
+let m = Number(document.getElementById('altura').value)
 let IMC = kg/(m*m)
 
-document.getElementById('res').innerHTML =  `Olá ${nome.value} o seu imc e`
+document.getElementById('res').innerHTML =  `Olá ${nome.value} o seu imc e `
 
 if (IMC < 18.5) { 
     res.innerHTML += `${IMC.toFixed(2)} voce está com o magreza`
