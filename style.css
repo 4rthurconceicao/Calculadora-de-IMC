@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(0, 81, 128);
+}
+h1{
+    text-align: center;
+}
+.botao{
+    border-width:2px ;
+    border-radius: 5px;
+    width: 170PX;
+    height:35PX ;
+    background-color: rgba(23, 75, 82, 0.808);
+    cursor: pointer;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+    }
