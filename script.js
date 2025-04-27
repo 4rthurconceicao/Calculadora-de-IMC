@@ -1,6 +1,8 @@
 function Calcular() {
 let res = document.getElementById('res')
 let nome = document.getElementById('nome')
+let fsex = document.getElementsByName('radsex')
+let genero = ''
 let kg = Number(document.getElementById('peso').value)
 let m = Number(document.getElementById('altura').value)
 let IMC = kg/(m*m)
