@@ -8,8 +8,21 @@ let m = Number(document.getElementById('altura').value)
 let IMC = kg/(m*m)
 
 document.getElementById('res').innerHTML =  `Olá ${nome.value} o seu imc e `
+if(isNaN(peso) || isNaN(altura)){
+  window.alert("Por favor, insira valores válidos para peso e altura.");
+  return;
+}
 
-if (IMC < 18.5) { 
+if(fsex[0].checked){
+genero = 'Homem';
+} else if (fsex[1].checked){
+  genero = 'Mulher'
+}else{
+  window.alert("Por favor, selecione o sexo.");
+  return;
+}
+
+if(IMC < 18.5) { 
     res.innerHTML += `${IMC.toFixed(2)} voce está com o magreza`
 }else if (IMC >= 18.5 && IMC <= 24.9){
   res.innerHTML += `${IMC.toFixed(2)} voce está com o peso ideal`
