@@ -2,7 +2,6 @@ function Calcular() {
 let res = document.getElementById('res')
 let nome = document.getElementById('nome')
 let fsex = document.getElementsByName('radsex')
-let img = document.getElementById('foto')
 let genero = ''
 let kg = Number(document.getElementById('peso').value)
 let m = Number(document.getElementById('altura').value)
@@ -23,6 +22,7 @@ genero = 'Homem';
 let IMC = kg/(m*m)
 
 document.getElementById('res').innerHTML =  `Olá ${nome.value} o seu imc e `
+let img = document.getElementById('foto')
 if(IMC < 18.5) { 
     res.innerHTML += `${IMC.toFixed(2)} voce está com o magreza`
 }else if (IMC >= 18.5 && IMC <= 24.9){
