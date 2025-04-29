@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
         <main>
-            <h1>Calculadora de IMC</h1>
-            <p>Nome <input type="text" name="nome" id="nome"></p>
-            <p>Sexo:
-             <input type="radio" name="radsex" id="masculino">
-             <label for="masculino">Masculino</label>
-             <input type="radio" name="radsex" id="Feminino">
-             <label for="feminino">Feminino</label>
-            </p>
-            <p>Peso (kg)</p>
-            <input type="number" name="" id="peso">
-            <p>Altura (m)</p>
-            <input type="number" name="" id="altura">
-            <h2 id="res"></h2>
-            <img id="foto" src="" alt="Foto do resultado">
-            <input class="botao" type="button" value="Cacular IMC" onclick="Calcular()">
+           
+                <h1>Calculadora de IMC</h1>
+                <p>Nome <input type="text" name="nome" id="nome"></p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="Masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="radsex" id="Feminino">
+                    <label for="feminino">Feminino</label>
+                </p>
+                <p>Peso (kg)</p>
+                <input type="number" name="" id="peso">
+                <p>Altura (m)</p>
+                <input type="number" name="" id="altura"> <br><br><br>
+
+                <input class="botao" type="button" value="Cacular IMC" onclick="Calcular()">
+                
+               
+                    <img id="foto" src="" alt="Foto do resultado">
+                
+
+                <h2 id="res"></h2>
+            </div>
         </main>
-    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

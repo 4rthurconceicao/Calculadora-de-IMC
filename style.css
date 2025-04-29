@@ -1,32 +1,53 @@
-body{
-    background-color: rgba(174, 190, 181, 0.923);
+body {
+    background-color: rgba(64, 111, 145, 0.923);
 }
-h1{
+
+h1 {
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.botao{
-    border-width:2px ;
+h2{
+    text-align: center;
+    font-size:25px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao {
+    color: white;
+    border-width: 2px;
     border-radius: 5px;
     width: 170PX;
-    height:35PX ;
-    background-color: rgba(23, 75, 82, 0.808);
+    height: 35PX;
+    background-color: rgba(6, 99, 149, 0.597);
     cursor: pointer;
+    justify-content: center;
 }
-main{
+
+main {
     background-color: white;
     border-radius: 10px;
     width: 600px;
     margin: auto;
-
+    align-items:flex-start ;
+    gap:20px;
+    padding: 20px;
+   
 }
 
-div{
+div {
     display: flex;
     justify-content: center;
-    margin-top:150px;
-    }
+    margin-top: 150px;
+}
 
-#foto{
-width:245px;
-height: auto;
-    }
+#foto {
+    display: none;
+    width: 175px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.img{
+    display: flex;
+    flex-direction:  unset;
+}
