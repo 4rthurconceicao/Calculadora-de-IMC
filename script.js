@@ -21,7 +21,7 @@ function Calcular() {
   }
   let IMC = kg / (m * m)
 
-  document.getElementById('res').innerHTML = `Olá ${nome.value} o seu imc e `
+  document.getElementById('res').innerHTML = `Olá ${nome.value} o seu IMC kg mg e `
   let img = document.getElementById('foto')
 
   //teste logico
