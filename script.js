@@ -21,11 +21,7 @@ function Calcular() {
   }
   let IMC = kg / (m * m)
 
-<<<<<<< HEAD
-  document.getElementById('res').innerHTML = `Olá ${nome.value} o seu IMC kg mg e `
-=======
-  document.getElementById('res').innerHTML = `Olá ${nome.value} o seu IMC e `
->>>>>>> 174a71fc98629cee0d2c16edcd8f29b2d103f8c3
+  document.getElementById('res').innerHTML = `Olá ${nome.value} o seu IMC kg e `
   let img = document.getElementById('foto')
 
   //teste logico
@@ -33,15 +29,19 @@ function Calcular() {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o magreza`
     if (genero === 'homem') {
       img.src = 'imagem/Homem-abaixo do peso.png'
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-abaixo do peso.png'
-
       img.style.display = 'block';
+     
     }
+    
   } else if (IMC >= 18.5 && IMC <= 24.9) {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o peso ideal`
     if (genero === 'homem') {
       img.src = 'imagem/Homem-peso adequado.png'
+      
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-Peso adequado.png'
 
@@ -51,6 +51,8 @@ function Calcular() {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Sobrepeso`
     if (genero === 'homem') {
       img.src = 'imagem/Homem-Sobrepeso.png'
+
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-Sobrepeso.png'
 
@@ -60,6 +62,8 @@ function Calcular() {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Obesidade grau 1 `
     if (genero === 'homem') {
       img.src = 'imagem/Homem-obesidade grau 1.png'
+
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-Obesidade grau 1.png'
 
@@ -69,6 +73,8 @@ function Calcular() {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Obesidade grau 2`
     if (genero === 'homem') {
       img.src = 'imagem/homem-obesidade grau 2.png'
+
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-Obesidade grau 2.png'
 
@@ -78,6 +84,8 @@ function Calcular() {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Obesidade grau 3`
     if (genero === 'homem') {
       img.src = 'imagem/Homem-obesidade grau 3.png'
+
+      img.style.display = 'block';
     } else {
       img.src = 'imagem/Mulher-Obesidade grau 3.png'
 

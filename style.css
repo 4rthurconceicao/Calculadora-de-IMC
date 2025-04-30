@@ -20,20 +20,21 @@ p{
     border-width: 2px;
     border-radius: 5px;
     width: 170PX;
-    height: 35PX;
-    background-color: rgba(6, 99, 149, 0.597);
+    height: 40PX;
+    background-color: rgba(10, 69, 151, 0.791);
     cursor: pointer;
     justify-content: center;
 }
 
 main {
     background-color: white;
-    border-radius: 10px;
-    width: 600px;
+    border-radius: 8px;
+    width:550px;
     margin: auto;
     align-items:flex-start ;
     gap:20px;
     padding: 20px;
+    margin-block-end:20px;
    
 }
 
@@ -60,5 +61,5 @@ div {
 }
 
 input{
-    border-radius: 5px;
+    border-radius: 4px;
 }
