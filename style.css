@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(64, 111, 145, 0.923);
+    background-color: rgba(3, 30, 70, 0.923);
 }
 
 h1 {
@@ -16,18 +16,18 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .botao {
-    color: white;
+    color: rgb(235, 232, 232);
     border-width: 2px;
     border-radius: 5px;
     width: 170PX;
     height: 40PX;
-    background-color: rgba(10, 69, 151, 0.791);
+    background-color: rgba(27, 84, 164, 0.791);
     cursor: pointer;
     justify-content: center;
 }
 
 main {
-    background-color: white;
+    background-color: rgb(232, 232, 220);
     border-radius: 8px;
     width:550px;
     margin: auto;
