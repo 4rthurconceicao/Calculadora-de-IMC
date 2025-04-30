@@ -11,6 +11,10 @@ h2{
     font-size:25px ;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .botao {
     color: white;
     border-width: 2px;
@@ -50,4 +54,11 @@ div {
 .img{
     display: flex;
     flex-direction:  unset;
+}
+.sex{
+    cursor: pointer;
+}
+
+input{
+    border-radius: 5px;
 }
