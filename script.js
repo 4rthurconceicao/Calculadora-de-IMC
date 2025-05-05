@@ -65,7 +65,7 @@ function Calcular() {
 
       img.style.display = 'block';
     } else {
-      img.src = 'imagem/Mulher-Obesidade grau 1.png'
+      img.src = 'imagem/Mulher-obesidade grau 1.png'
 
       img.style.display = 'block';
     }
