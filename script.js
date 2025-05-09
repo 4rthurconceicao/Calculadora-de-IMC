@@ -72,7 +72,7 @@ function Calcular() {
   } else if (IMC >= 35.0 && IMC <= 39.9) {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Obesidade grau 2`
     if (genero === 'homem') {
-      img.src = 'imagem/homem-obesidade grau 2.png'
+      img.src = 'imagem/homem-Obesidade grau 2.png'
 
       img.style.display = 'block';
     } else {
@@ -87,7 +87,7 @@ function Calcular() {
 
       img.style.display = 'block';
     } else {
-      img.src = 'imagem/Mulher-Obesidade grau 3.png'
+      img.src = 'imagem/Mulher-obesidade grau 3.png'
 
       img.style.display = 'block';
     }
