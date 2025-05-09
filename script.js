@@ -50,22 +50,22 @@ function Calcular() {
   } else if (IMC >= 25.0 && IMC <= 29.9) {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Sobrepeso`
     if (genero === 'homem') {
-      img.src = 'imagem/Homem-Sobrepeso.png'
+      img.src = 'imagem/Homem-sobrepeso.png'
 
       img.style.display = 'block';
     } else {
-      img.src = 'imagem/Mulher-Sobrepeso.png'
+      img.src = 'imagem/Mulher-sobrepeso.png'
 
       img.style.display = 'block';
     }
   } else if (IMC >= 30.00 && IMC <= 34.9) {
     res.innerHTML += `${IMC.toFixed(2)} voce está com o Obesidade grau 1 `
     if (genero === 'homem') {
-      img.src = 'imagem/Homem-obesidade grau 1.png'
+      img.src = 'imagem/Homem-Obesidade grau 1.png'
 
       img.style.display = 'block';
     } else {
-      img.src = 'imagem/Mulher-Obesidade grau 1.png'
+      img.src = 'imagem/Mulher-obesidade grau 1.png'
 
       img.style.display = 'block';
     }
@@ -76,7 +76,7 @@ function Calcular() {
 
       img.style.display = 'block';
     } else {
-      img.src = 'imagem/Mulher-Obesidade grau 2.png'
+      img.src = 'imagem/Mulher-obesidade grau 2.png'
 
       img.style.display = 'block';
     }
