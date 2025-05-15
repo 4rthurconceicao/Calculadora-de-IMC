@@ -34,14 +34,14 @@ main {
     align-items:flex-start ;
     gap:20px;
     padding: 20px;
-    margin-block-end:20px;
+    margin-block-end:px;
    
 }
 
 div {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
 #foto {
@@ -62,4 +62,10 @@ div {
 
 input{
     border-radius: 4px;
+}
+
+footer{
+    color: white;
+ text-align: center;
+ font-style: italic;
 }
